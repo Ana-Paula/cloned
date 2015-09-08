@@ -1,4 +1,2 @@
-GIT_EDITOR environment variable
-core.editor configuration setting
-VISUAL environment variable
-EDITOR environment variable
+Ana Paula = ARGV.first || "World"
+puts "Hello, #{Ana Paula}!"
