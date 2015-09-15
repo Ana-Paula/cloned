@@ -1,7 +1,7 @@
 require 'greeter'
 
-puts "What's your name"
-Ana = gets.strip
+# Default is World
+Ana = ARGV.first || "World"
 
 greeter = Greeter.new(Ana)
 puts greeter.greet
